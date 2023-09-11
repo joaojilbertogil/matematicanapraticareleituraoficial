@@ -1,0 +1,147 @@
+
+/*Configurar variáveis de ambiente*/
+:root{
+    --cor_fundo: rgb(0, 0, 0);
+    --cor_main: rgb(145, 240, 37);
+    --cor_main_dark: rgb(26, 23, 73);
+}
+
+.titulo{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+/*Resetar contorno da página*/
+*{
+    outline: 0;
+    text-rendering: optimizeLegibility;
+    box-sizing: border-box;
+}
+
+/*resete da página*/
+body{
+    margin: 0;
+    padding: 0;
+    background-color: var(--cor_fundo);
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 1.3em;
+    line-height: 1.2em; /*define o espaçamento de linha*/
+    width: 100vw;
+    height: 100vh;
+}
+
+main{
+    width: 85%;
+    margin: 7.9% auto;
+    background: var(--cor_main);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 15px;
+    border: 1px solid rgb(175, 175, 175);
+    border: none;
+    
+}
+
+header{
+    display: flex;
+    align-items: center;
+    background: var(--cor_main);
+    border: 1px solid rgb(175, 175, 175);
+}
+
+header h1{
+    width: 100%;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;  
+     font-size: 70px;
+}
+
+aside{
+    width: 100%;
+}
+
+form label, form input{
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+    
+}
+
+form label{
+    font-size: larger;
+}
+
+form button{
+    width: 31.5%;
+    margin-right: 20px;
+    background-color: var(--cor_fundo);
+    color:var(--cor_main);
+    height: 40px;
+    margin-top: 20px;
+    cursor: pointer; 
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+}
+
+form button[type="reset"]{
+    margin-left: 5.4%;
+}
+
+form button:hover{
+    background-color: rgb(12, 231, 121);
+    color: black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+}
+
+
+
+footer{
+    height: 80px;
+    background: var(--cor_main);
+    text-align: center;
+    bottom: 0;
+    width: 100%;
+    border: 1px solid rgb(175, 175, 175);
+    
+    
+}
+
+.contato{
+
+    width: 30%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+form input{
+    font-size: 24px;
+    height: 60px;
+    padding: 0 30px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+form input:focus{
+    outline: 1px solid rgb(0, 0, 0);
+}
+
+.conta{
+   
+    width: 80%;
+    height: 20%;
+    
+   
+
+}
+
+.logo{
+    max-width:200px;
+    max-height:150px;
+    border-radius: 50%;
+    width: auto;
+    height: auto;
+}
+
+#erro {
+    background-color: red; 
+    color: white; 
+    padding: 5px; 
+}

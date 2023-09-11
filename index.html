@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="João Gilberto Canal Favaro">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/estilo.css">
+    <title>Matemática na Prática</title>
+</head>
+<header>
+    <figure>
+        <img src="imagens/prof.png" alt="logo" title="logo" class="logo">
+    </figure>
+
+    <h1 class="titulo">Matemática na Prática </h1>
+</header>
+<body>
+    <main>
+        <section class="contato">
+            <form action="/" method="post" id="formulario">
+                <label for="n1">Valor 1</label>
+                <input type="text" id="n1" name="n1" placeholder="Insira o Primeiro Número">
+
+                <label for="n2">Valor 2</label>
+                <input type="text" id="n2" name="n2" placeholder="Insira o Segundo Número">
+<br/>
+                Resultado
+                <br/>
+                <label id="lblresult"></label>
+                <p id="erro" class="mensagem-erro"></p>
+
+                <button type="button" class="operacao" data-op="adicao">Adição</button>
+                <button type="button" class="operacao" data-op="subtracao">Subtração</button>
+                 <button type="button" class="operacao" data-op="multiplicacao">Multiplicação</button>
+                  <button type="button" class="operacao" data-op="divisao">Divisão</button>
+                 <button type="button" id="limpar">Limpar</button>
+            </form>
+        </section>
+
+        <aside>
+            <figure>
+                <img src="imagens/simbulo.png" alt="tabela"  class="conta">
+            </figure>
+
+            <section></section>
+        </aside>
+    </main>
+    <script src="js/conta.js"></script>
+
+</body>
+<footer>
+    <p>Made by João Gilberto Canal Favaro &copy;</p>
+</footer>
+</html>
